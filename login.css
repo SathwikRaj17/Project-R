@@ -24,8 +24,10 @@ body{
     padding: 50px;
     margin-bottom: px;
     color: #FAEED1;
+    
 }
 .button{
+    width: 150px;
     border-radius: 15px;
      border: 0;
     padding: 10px;
@@ -33,6 +35,13 @@ body{
     font-size: medium;
     padding-left: 20px;
     padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -46,8 +55,11 @@ a{
     font-size:large;
     padding: 8px;
     width: 150px;
-
-
+    transition: transform 0.3s;
+}
+.textbox input:focus
+{
+    transform: scaleX(1.1);
 }
 .textbox label{
     font-size: large;
