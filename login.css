@@ -1,0 +1,78 @@
+.main{
+    height: 500px;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    width: 400px;
+    margin-top: 8%;
+    border-radius: 24px;
+    text-align: center;
+    
+    
+}
+
+body{
+    background-image: url("./Public/dark-cloth-with-plate-waffles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.textbox{
+    border-radius: 25px;
+    border: 0;
+    padding: 50px;
+    margin-bottom: px;
+    color: #FAEED1;
+    
+}
+.button{
+    width: 150px;
+    border-radius: 15px;
+     border: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button:hover
+{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:deeppink;
+
+}
+.textbox input{
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size:large;
+    padding: 8px;
+    width: 150px;
+    transition: transform 0.3s;
+}
+.textbox input:focus
+{
+    transform: scaleX(1.1);
+}
+.textbox label{
+    font-size: large;
+}
+h1{
+    margin-top: 60px;
+    color:#FAEED1;
+    
+}
+p{
+    margin-top: 60px;
+    color: #FAEED1;
+}
+.forget{
+    margin-left: 63%;
+}
