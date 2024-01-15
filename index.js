@@ -15,3 +15,14 @@ const db=new pg.Client({
     database:"users"
 })
 app.use(bodyparser.urlencoded({extended:true}));
+app.use(express.static("Public"));
+
+app.listen(port,function(req,res)
+{
+    console.log(`Listening on ${port}`)
+})
+
+app.get("/",function(req,res)
+{
+    res.sendFile(pt+"/Public/login.html")
+})
