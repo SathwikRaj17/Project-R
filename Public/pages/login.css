@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url("./Public/dark-cloth-with-plate-waffles.jpg");
+    background-image: url("/Public/dark-cloth-with-plate-waffles.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
